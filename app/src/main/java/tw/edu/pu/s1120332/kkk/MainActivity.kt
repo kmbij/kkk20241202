@@ -76,7 +76,7 @@ fun Animation(m:Modifier) {
     )
     //顏色動畫
     val backgroundColor by animateColorAsState(
-        if (appear) Color.Transparent else Color.Transparent,
+        if (appear) Color.Transparent else Color.Black,
         animationSpec = tween(2000, 500)
     )
     //大小動畫
